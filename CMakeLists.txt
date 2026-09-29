@@ -18,9 +18,9 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 
 # ---- Executables ----
 # add_executable(<name> <source files...>)
-add_executable(adj_list "adj_list(bfs,dfs).cpp")
-add_executable(edge_list "edge_list(bfs,dfs).cpp")
-add_executable(adj_matrix "adj_matrix(bfs,dfs).cpp")
+add_executable(adj_list "dom1/adj_list(bfs,dfs).cpp")
+add_executable(edge_list "dom1/edge_list(bfs,dfs).cpp")
+add_executable(adj_matrix "dom1/adj_matrix(bfs,dfs).cpp")
 
 # Examples of adding more:
 # add_executable(task1 task1.cpp)
